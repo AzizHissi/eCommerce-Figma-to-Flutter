@@ -49,7 +49,10 @@ class _DrawerShapesState extends State<DrawerShapes> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.white,
-        leading: Icon(Icons.menu).height(20).width(20),
+        leading: Icon(
+          Icons.menu,
+          color: Colors.black,
+        ).height(20).width(20),
         centerTitle: true,
         title: Image.asset(
           'assets/logo.png',
